@@ -10,6 +10,8 @@ else {
 wp_head(); // brug header med mindre billede på alle andre sider.
 ?>
 
+<div class="contentWrapper">
+
     <main role="main">
         <!-- section -->
         <section>
@@ -50,6 +52,8 @@ wp_head(); // brug header med mindre billede på alle andre sider.
         <!-- /section -->
     </main>
 
-<?php get_sidebar(); ?>
+</div>
+
+ <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

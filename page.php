@@ -8,7 +8,6 @@ else {
 wp_head(); // brug header med mindre billede på alle andre sider.
 ?>
 
-
 	<main role="main">
 		<!-- section -->
 		<section>

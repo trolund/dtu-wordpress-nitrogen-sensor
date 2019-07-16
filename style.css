@@ -128,14 +128,13 @@ header .overlay {
 	height: 100%;
 	display: flex;
 	align-items: center; /* align vertical */
+
 }
 
 
 .topContainer{
 	top: 0;
 	height: 160px;
-
-
 }
 
 
@@ -191,22 +190,63 @@ header .overlay {
 
 /* Change the link color to #111 (black) on hover */
 .nav li a:hover {
-	background-color: rgba(255, 255, 255, .4);;
+	background-color: rgba(255, 255, 255, .4);
 }
 /* sidebar */
 .sidebar {
 
 }
+
+/* search bar */
+.search-input{
+	display: inline-block;
+}
+
+.nav input[type=search] {
+	width: 130px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	color: white !important;
+	background-color: rgba(255, 255, 255, .4);
+	background-image: url('img/searchicon.svg');
+	background-position: 10px 10px;
+	background-size: 25px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	float: right;
+	margin-right: 10px;
+}
+
+.nav input[type=search]:focus {
+	width: 300px;
+	max-width: 300px;
+}
+
+.nav button[type=submit] {
+	display: none;
+}
+
+
 /* footer */
 .footer {
-
+	height: 300px;
+	background-color: #212121;
+	width: 100%;
 }
 
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
 
-
+.contentWrapper {
+	max-width:1280px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /*------------------------------------*\
     IMAGES

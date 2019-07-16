@@ -55,6 +55,7 @@
                     <!-- nav -->
                     <nav class="nav" role="navigation">
                         <?php html5blank_nav(); ?>
+                        <?php get_template_part('searchform'); ?>
                     </nav>
                     <!-- /nav -->
                     </div>
