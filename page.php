@@ -1,4 +1,13 @@
-<?php get_header(); ?>
+<?php
+if(is_front_page()) {
+    get_header('Frontpage'); // brug header med stort billede/ video på forsiden
+}
+else {
+    get_header();
+}
+wp_head(); // brug header med mindre billede på alle andre sider.
+?>
+
 
 	<main role="main">
 		<!-- section -->
