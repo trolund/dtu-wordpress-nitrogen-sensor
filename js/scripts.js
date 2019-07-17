@@ -63,13 +63,15 @@ function getviewPort() {
 // responsive menu icon
 function mobilMenu(x) {
 	if (jQuery(".container").is(":visible")) {
+		jQuery(".container").slideUp(200);
+		//jQuery(".container").css("display", "none");
 		jQuery(".container").css("opacity", 0);
-		jQuery(".container").css("display", "none");
 		mobilmenuvis = false;
 		x.classList.remove("change");
 	} else {
-		jQuery(".container").css("display", "block");
+		//jQuery(".container").css("display", "block");
 		jQuery(".container").css("opacity", 1);
+		jQuery(".container").slideDown(200);
 		mobilmenuvis = true;
 		x.classList.add("change");
 	}

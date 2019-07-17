@@ -110,14 +110,14 @@ header video {
     transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.container {
     position: relative;
     z-index: 2;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    transition: all .5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 header .overlay {
@@ -173,6 +173,9 @@ header .overlay {
     opacity: 0;
 }
 
+.opacityOne {
+    opacity: 1 !important;
+}
 
 @media (pointer: coarse) and (hover: none) {
     header {
@@ -849,12 +852,14 @@ a img.aligncenter {
     background-color: #FFF;
     margin: 6px 0;
     transition: 0.4s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5); //mix-blend-mode: darken;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    //mix-blend-mode: darken;
 }
 
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
+    background-color: #00916a;
 }
 
 .change .bar2 {
@@ -864,4 +869,5 @@ a img.aligncenter {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+    background-color: #00916a;
 }
