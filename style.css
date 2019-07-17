@@ -282,10 +282,8 @@ header .overlay {
 
 
 .topContainerDesktopFixed {
-    margin-top: -10px;
     background-color: rgba(240,240,240, 0.85) !important;
     border-radius: 5px;
-    height: 75px;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     margin-left: auto;
@@ -574,10 +572,8 @@ header .overlay {
     }
 
     .topContainerDesktopFixed {
-        margin-top: -10px;
         background-color: rgba(0, 0, 0, .85);
         border-radius: 5px;
-        height: 75px;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
         margin-left: auto;
