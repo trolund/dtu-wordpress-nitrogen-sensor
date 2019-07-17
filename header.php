@@ -31,9 +31,9 @@
         </div>
         <div class="overlayNormal"></div>
         <!--   <div class="frontText"><span><b>NITROGEN SENSOR FOR SOIL SUSTAINABILITY</b></span></div> -->
-           <div class="container">
-               <div class="topContainer">
-                   <!-- logo -->
+        <div class="container">
+            <div class="topContainer">
+                <!-- logo -->
                 <div class="logo">
                     <a href="<?php echo home_url(); ?>">
                         <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
@@ -49,10 +49,8 @@
                 <!-- /nav -->
                 <?php get_template_part('searchform'); ?>
             </div>
-            <div class='icon-scroll'><div/>
-            </div>
         </div>
+</div>
 
-    </header>
-
-    <!-- /header -->
+</header>
+<!-- /header -->
