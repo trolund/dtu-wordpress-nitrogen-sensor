@@ -1,6 +1,8 @@
 var w;
 var h;
 
+var mobilmenuvis = true;
+
 (function ($, root, undefined) {
 	
 	$(function () {
@@ -35,7 +37,7 @@ var h;
 
 jQuery(window).scroll(function (event) {
 	var scroll = jQuery(window).scrollTop();
-	// Do something
+
 	if(scroll > 100){
 		jQuery(".frontText").addClass("opacityZero");
 		jQuery(".topContainer").addClass("topContainerDesktopFixed");
@@ -43,6 +45,24 @@ jQuery(window).scroll(function (event) {
 		jQuery(".frontText").removeClass("opacityZero");
 		jQuery(".topContainer").removeClass("topContainerDesktopFixed");
 	}
+});
+
+jQuery(window).resize(function (event) {
+	var w = jQuery(window).width();
+
+	if(w >= 800){
+		jQuery(".container").css("display", "block");
+		jQuery(".container").css("opacity", 1);
+		jQuery(".containerMenuIcon").addClass("change");
+
+		mobilmenuvis = true;
+	}else{
+		jQuery(".container").css("display", "none");
+		jQuery(".container").css("opacity", 0);
+		jQuery(".containerMenuIcon").removeClass("change");
+		mobilmenuvis = false;
+	}
+	console.log(w);
 });
 
 function adaptHeaderHeight() {
