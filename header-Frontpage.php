@@ -26,19 +26,24 @@
     </script>
 
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> onscroll="dismisScollAni()" onresize="getviewPort()">
 
 <!-- wrapper -->
 <div class="wrapper overlay">
 
     <!-- header -->
     <header class="header clear" role="banner">
-
+        <div class="containerMenuIcon" onclick="mobilMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <!--   <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
             <source src="<?php echo get_template_directory_uri(); ?>/video/new.mp4" type="video/mp4">
         </video>
+        <div class="frontText"><span><b>NITROGEN SENSOR FOR SOIL SUSTAINABILITY</b></span></div>
         <div class="container">
             <div class="topContainer">
                 <!-- logo -->
@@ -57,18 +62,10 @@
                 <!-- /nav -->
                 <?php get_template_part('searchform'); ?>
             </div>
-            <div class="frontText"><span><b>NITROGEN SENSOR FOR SOIL SUSTAINABILITY</b></span></div>
-            <span class="scroll-btn">
-    <a href="#">
-
+            <div class='icon-scroll'><div/>
+            </div>
         </div>
 
+    </header>
 
-        </a>
-        <p>scroll me</p>
-
-        </span>
-</div>
-</header>
-
-<!-- /header -->
+    <!-- /header -->

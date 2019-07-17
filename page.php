@@ -1,4 +1,4 @@
-<?php /* Template name: Frontpage */ ?>
+<?php /* Template name: Normal-page */ ?>
 
 <?php
 if(is_front_page()) {

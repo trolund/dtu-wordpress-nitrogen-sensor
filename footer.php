@@ -1,12 +1,24 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 
+                <div class="footerTop">
+                    <div class="flex-container">
+                        <div><img src="<?php echo get_template_directory_uri(); ?>/img/ac-logo.png"></div>
+                        <div><img src="<?php echo get_template_directory_uri(); ?>/img/CKIC_EU_flag_black_right.svg"></div>
+                        <div><img src="<?php echo get_template_directory_uri(); ?>/img/kulogo.svg"></div>
+                        <div><img src="<?php echo get_template_directory_uri(); ?>/img/FIC.jpg"></div>
+                        <div><img src="<?php echo get_template_directory_uri(); ?>/img/danmarks-tekniske-universitet-seeklogo.com.svg"></div>
+                    </div>
+                </div>
+                <div class="footerMiddel"></div>
+                <div class="footerBottom">
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?> ?>
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 				</p>
 				<!-- /copyright -->
+                </div>
 
 			</footer>
 			<!-- /footer -->
