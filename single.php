@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="contentWrapper">
 	<main role="main">
 	<!-- section -->
 	<section>
@@ -43,7 +43,6 @@
 
 		</article>
 		<!-- /article -->
-
 	<?php endwhile; ?>
 
 	<?php else: ?>
@@ -61,6 +60,7 @@
 	</section>
 	<!-- /section -->
 	</main>
+</div>
 
 <?php get_sidebar(); ?>
 

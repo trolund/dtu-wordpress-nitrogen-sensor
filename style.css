@@ -131,6 +131,23 @@ header .overlay {
     z-index: 1;
 }
 
+header .overlayNormal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 100%;
+   // background-color: black;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.headerNormal {
+    height: 50vh;
+}
+
 .frontText {
     position: absolute;
     width: 100%;

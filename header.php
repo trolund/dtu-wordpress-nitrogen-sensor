@@ -16,15 +16,6 @@
 
     <?php wp_head(); ?>
 
-    <script>
-        // conditionizr.com
-        // configure environment tests
-        conditionizr.config({
-            assets: '<?php echo get_template_directory_uri(); ?>',
-            tests: {}
-        });
-    </script>
-
 </head>
 <body <?php body_class(); ?> onscroll="dismisScollAni()" onresize="getviewPort()">
 
@@ -32,22 +23,17 @@
 <div class="wrapper overlay">
 
     <!-- header -->
-    <header class="header clear" role="banner">
+    <header class="header clear headerNormal" role="banner">
         <div class="containerMenuIcon" onclick="mobilMenu(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-
-        <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <!--   <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
-            <source src="<?php echo get_template_directory_uri(); ?>/video/new.mp4" type="video/mp4">
-        </video>
-        <div class="frontText"><span><b>NITROGEN SENSOR FOR SOIL SUSTAINABILITY</b></span></div>
-        <div class="container">
-            <div class="topContainer">
-                <!-- logo -->
+        <div class="overlayNormal"></div>
+        <!--   <div class="frontText"><span><b>NITROGEN SENSOR FOR SOIL SUSTAINABILITY</b></span></div> -->
+           <div class="container">
+               <div class="topContainer">
+                   <!-- logo -->
                 <div class="logo">
                     <a href="<?php echo home_url(); ?>">
                         <!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
