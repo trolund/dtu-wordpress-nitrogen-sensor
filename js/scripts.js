@@ -84,7 +84,7 @@ function getviewPort() {
 function mobilMenu(x) {
 	if (jQuery(".container").is(":visible")) {
 		jQuery(".container").slideUp(200);
-		//jQuery(".container").css("display", "none");
+		//jQuery(".search-input").css("background-image", "url('img/searchiconGrey.svg') !important;");
 		jQuery(".container").css("opacity", 0);
 		mobilmenuvis = false;
 		x.classList.remove("change");

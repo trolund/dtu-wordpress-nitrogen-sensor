@@ -32,7 +32,7 @@
                 <div class="footerBottom">
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?> -
 					<a href="https://www.diplom.dtu.dk/" title="DTU">Technical University of Denmark</a>.
 				</p>
 				<!-- /copyright -->

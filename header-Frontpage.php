@@ -17,7 +17,7 @@
     <?php wp_head(); ?>
 
 </head>
-<body <?php body_class(); ?> onscroll="dismisScollAni()" onresize="getviewPort()">
+<body <?php body_class(); ?>>
 
 <!-- wrapper -->
 <div class="wrapper overlay">
