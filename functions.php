@@ -131,6 +131,10 @@ function html5blank_styles()
 
     wp_register_style('HoverCss', get_template_directory_uri() . '/css/hover.css', array(), '1.0', 'all');
     wp_enqueue_style('HoverCss'); // Enqueue it!
+
+    wp_register_style('bootstrapCss', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css', array(), '1.0', 'all');
+    wp_enqueue_style('bootstrapCss'); // Enqueue it!
+
 }
 
 // Register HTML5 Blank Navigation

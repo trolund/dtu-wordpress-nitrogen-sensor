@@ -10,12 +10,30 @@
                         <div><img src="<?php echo get_template_directory_uri(); ?>/img/danmarks-tekniske-universitet-seeklogo.com.svg"></div>
                     </div>
                 </div>
-                <div class="footerMiddel"></div>
+                <div class="footerMiddel">
+                    <div class="row">
+                        <div class="col-sm-4"><h3>Navigation</h3><?php html5blank_nav(); ?></div>
+                        <div class="col-sm-4"><h3>Links</h3><ul>
+                                <li><a href="https://www.diplom.dtu.dk/">Technical University of Denmark - Diplom</a></li>
+                                <li><a href="https://www.climate-kic.org/">Climate kic</a></li>
+                                <li><a href="https://www.ficlima.org/">The Foundation for Climate Research</a></li>
+                                <li><a href="https://www.ku.dk/">University of Copenhagen</a></li>
+                            </ul></div>
+                        <div class="col-sm-4"><h3>Stay up to date</h3><h4>Newsletter</h4><?php echo do_shortcode('[email-subscribers-form id="1"]') ?>
+                            <h4>Follow the project on Social media</h4>
+                            <a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_facebook.svg"></a>
+                            <a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_instagram.svg"></a>
+                            <a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_twitter.svg"></a>
+                            <a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_youtube.svg"></a>
+                        </div>
+                    </div>
+
+                </div>
                 <div class="footerBottom">
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?> ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>
+					<a href="https://www.diplom.dtu.dk/" title="DTU">Technical University of Denmark</a>.
 				</p>
 				<!-- /copyright -->
                 </div>
@@ -28,7 +46,7 @@
 
 		<?php wp_footer(); ?>
 
-		<!-- analytics -->
+		<!-- analytics
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
 		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
@@ -37,6 +55,6 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
-
+-->
 	</body>
 </html>
