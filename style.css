@@ -1,3 +1,12 @@
+/*
+Theme Name: NITROGEN SENSOR
+Theme URI: https://github.com/trolund
+Author: DTU (Troels Lund)
+Author URI: https://www.dtu.dk
+Description: NITROGEN SENSOR FOR SOIL SUSTAINABILITY
+Version: 0.1
+*/
+
 /*------------------------------------*\
     MAIN
 \*------------------------------------*/
@@ -173,7 +182,7 @@ header .overlayNormal {
     transform: translate(-50%, 0);
     text-align: center;
     color: white;
-    font-size: 5em;
+    font-size: 4vw;
     align-items: center; /* align vertical */
     transition: all 0.5s ease-in-out;
     display: flex;
@@ -213,6 +222,7 @@ header .overlayNormal {
     opacity: 1 !important;
 }
 
+/*
 @media (pointer: coarse) and (hover: none) {
     header {
         background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
@@ -222,7 +232,7 @@ header .overlayNormal {
         display: none;
     }
 }
-
+*/
 /* bg video end */
 
 /* logo */
