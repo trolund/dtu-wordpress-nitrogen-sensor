@@ -451,6 +451,7 @@ header .overlayNormal {
 
 .footerTop {
     //background-color: rgba(255, 255, 255, .25);
+    display: none;
 }
 
 .footerTop img {
