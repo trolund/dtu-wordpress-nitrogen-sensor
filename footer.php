@@ -13,18 +13,25 @@
                 <div class="footerMiddel">
                     <div class="row">
                         <div class="col-sm-4"><h3>Navigation</h3><?php html5blank_nav(); ?></div>
-                        <div class="col-sm-4"><h3>Links</h3><ul>
+                        <div class="col-sm-4"><h3>Links</h3>
+                            <!--
+                            <ul>
                                 <li><a href="https://www.diplom.dtu.dk/">Technical University of Denmark - Diplom</a></li>
                                 <li><a href="https://www.climate-kic.org/">Climate kic</a></li>
                                 <li><a href="https://www.ficlima.org/">The Foundation for Climate Research</a></li>
                                 <li><a href="https://www.ku.dk/">University of Copenhagen</a></li>
-                            </ul></div>
-                        <div class="col-sm-4"><h3>Stay up to date</h3><h4>Newsletter</h4><?php echo do_shortcode('[email-subscribers-form id="1"]') ?>
+                            </ul>-->
+                            <?php wp_nav_menu( array( 'theme_location' => 'footer-link-menu' ) ); ?></div>
+                        <div class="col-sm-4">
+                            <?php show_post('stay-up-to-date'); ?>
+                            <!--
+                            <h3>Stay up to date</h3><h4>Newsletter</h4><?php //echo do_shortcode('[email-subscribers-form id="1"]') ?>
                             <h4>Follow the project on Social media</h4>
-                            <a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_facebook.svg"></a>
-                            <a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_instagram.svg"></a>
-                            <a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_twitter.svg"></a>
-                            <a href="#facebook"><img src="<?php echo get_template_directory_uri(); ?>/img/logo_youtube.svg"></a>
+                            <a href="#facebook"><img src="<?php// echo get_template_directory_uri(); ?>/img/logo_facebook.svg"></a>
+                            <a href="#facebook"><img src="<?php// echo get_template_directory_uri(); ?>/img/logo_instagram.svg"></a>
+                            <a href="#facebook"><img src="<?php// echo get_template_directory_uri(); ?>/img/logo_twitter.svg"></a>
+                            <a href="#facebook"><img src="<?php// echo get_template_directory_uri(); ?>/img/logo_youtube.svg"></a>
+                            -->
                         </div>
                     </div>
 

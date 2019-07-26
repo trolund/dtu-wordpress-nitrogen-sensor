@@ -143,8 +143,11 @@ function register_html5_menu()
     register_nav_menus(array( // Using array to specify more menus if needed
         'header-menu' => __('Header Menu', 'html5blank'), // Main Navigation
         'sidebar-menu' => __('Sidebar Menu', 'html5blank'), // Sidebar Navigation
-        'extra-menu' => __('Extra Menu', 'html5blank') // Extra Navigation if needed (duplicate as many as you need!)
+        'Footer-navigation-menu' => __('Footer-navigation-menu', 'html5blank'),
+        'footer-link-menu' => __('Footer-link-menu', 'html5blank')
     ));
+
+
 }
 
 // Remove the <div> surrounding the dynamic navigation to cleanup markup
@@ -462,6 +465,12 @@ function html5_shortcode_demo($atts, $content = null)
 function html5_shortcode_demo_2($atts, $content = null) // Demo Heading H2 shortcode, allows for nesting within above element. Fully expandable.
 {
     return '<h2>' . $content . '</h2>';
+}
+
+function show_post($path) {
+    $post = get_page_by_path($path);
+    $content = apply_filters('the_content', $post->post_content);
+    echo $content;
 }
 
 ?>
