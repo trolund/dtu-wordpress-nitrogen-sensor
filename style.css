@@ -346,10 +346,11 @@ header .overlayNormal {
     background-image: url('img/searchiconGrey.svg') !important;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid #000000 !important;
+    color: #212121 !important;
 }
 
 .topContainerDesktopFixed input[type=search]::placeholder{
-    color: #444444 !important;
+    color: #212121 !important;
 }
 
 .containerMenuIcon {
@@ -379,7 +380,7 @@ header .overlayNormal {
     border: 1px solid #ccc !important;
     border-radius: 5px;
     font-size: 16px;
-    color: white !important;
+    color: white;
     background-color: rgba(255, 255, 255, .2);
     background-image: url('img/searchicon.svg');
     background-position: 10px 15px;
@@ -394,6 +395,7 @@ header .overlayNormal {
     margin-left: 15px;
 }
 
+
 .topContainer input[type=search]::placeholder {
     color: white;
 }
@@ -401,6 +403,7 @@ header .overlayNormal {
 .topContainer input[type=search]:focus {
     width: 300px;
     max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .topContainer input[type=search]:hover {
@@ -413,6 +416,43 @@ header .overlayNormal {
     display: none;
 }
 
+/* Change Autocomplete styles in Chrome
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    background-color: #00bf93 !important;
+    background-color: rgba(0, 191, 147, 0.4) !important;
+}
+*/
+input:-webkit-autofill {
+    background-color: rgba(0, 191, 147, 0.4) !important;
+}
+input:-webkit-autofill:focus {
+    background-color: rgba(0, 191, 147, 0.4) !important;
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-text-fill-color: rgba(0, 0, 0, 1);
+    -webkit-box-shadow: none;
+    color: whitesmoke;
+    transition: background-color 5000s ease-in-out;
+}
 
 /* footer */
 .footer {
