@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a630a46-9bd5-43d1-95c9-1ccb1d0daa25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/AgriLogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/DTULogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/FICLogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/KicLogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/searchiconGrey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/farming2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header-Frontpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/header-Frontpage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6820">
-              <caret line="627" column="17" selection-start-line="627" selection-start-column="17" selection-end-line="627" selection-end-column="17" />
+            <state relative-caret-position="191">
+              <caret line="155" column="26" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -49,8 +41,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            <state relative-caret-position="487">
+              <caret line="39" column="109" selection-start-line="39" selection-start-column="109" selection-end-line="39" selection-end-column="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -94,6 +105,7 @@
       <find>max-w¨</find>
       <find>max-w</find>
       <find>max</find>
+      <find>normal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,22 +124,21 @@
         <option value="$PROJECT_DIR$/LICENSE.md" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/single.php" />
-        <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/tag.php" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/header-Frontpage.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/header.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2640" />
     <option name="y" value="23" />
-    <option name="width" value="960" />
-    <option name="height" value="1057" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -141,6 +152,11 @@
             <path>
               <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="b2602c69:ProjectViewProjectNode" />
               <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +206,7 @@
       <workItem from="1563883088342" duration="34000" />
       <workItem from="1564055091472" duration="6147000" />
       <workItem from="1564172234949" duration="1444000" />
-      <workItem from="1565180902179" duration="10780000" />
+      <workItem from="1565180902179" duration="13622000" />
     </task>
     <task id="LOCAL-00001" summary="Custom frontpage template and header">
       <created>1563277009880</created>
@@ -304,17 +320,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565196691104</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="img's">
+      <created>1565199665128</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1565199665128</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83912000" />
+    <option name="totallyTimeSpent" value="86754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18210863" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2446352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,7 +398,8 @@
     <MESSAGE value="update af footer" />
     <MESSAGE value="update" />
     <MESSAGE value="logo added" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo added" />
+    <MESSAGE value="img's" />
+    <option name="LAST_COMMIT_MESSAGE" value="img's" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -399,11 +423,6 @@
           <url>file://$PROJECT_DIR$/js/scripts.js</url>
           <line>54</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/header-Frontpage.php</url>
-          <line>14</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -495,14 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fonts/readme.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -566,13 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/hover.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -597,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6820">
-          <caret line="627" column="17" selection-start-line="627" selection-start-column="17" selection-end-line="627" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header-Frontpage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -611,10 +608,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="72" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="155" column="26" selection-start-line="155" selection-start-column="26" selection-end-line="155" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        <state relative-caret-position="487">
+          <caret line="39" column="109" selection-start-line="39" selection-start-column="109" selection-end-line="39" selection-end-column="109" />
         </state>
       </provider>
     </entry>

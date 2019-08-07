@@ -29,7 +29,20 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-        <div class="overlayNormal"></div>
+        <?php
+        if(is_page( 'Contact' )){
+            echo "<div style='background-image: url(", get_template_directory_uri(), "/img/farming.jpg)' class='overlayNormal'></div>";
+        }
+        elseif(is_page( 'News' )){
+            echo "<div style='background-image: url(", get_template_directory_uri(), "/img/farming2.jpg)' class='overlayNormal'></div>";
+        }
+        elseif(is_page( 'Partners' )){
+            echo "<div style='background-image: url(", get_template_directory_uri(), "/img/farming2.jpg)' class='overlayNormal'></div>";
+        }
+        else{
+            echo "<div class='overlayNormal'></div>";
+        }
+        ?>
         <!--   <div class="frontText"><span><b>NITROGEN SENSOR FOR SOIL SUSTAINABILITY</b></span></div> -->
         <div class="container">
             <div class="topContainer">

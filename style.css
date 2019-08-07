@@ -4,7 +4,7 @@ Theme URI: https://github.com/trolund
 Author: DTU (Troels Lund)
 Author URI: https://www.dtu.dk
 Description: NITROGEN SENSOR FOR SOIL SUSTAINABILITY
-Version: 0.1
+Version: 0.12
 */
 
 /*------------------------------------*\
@@ -153,7 +153,7 @@ header .overlay {
 
 
 header .overlay:hover {
- //   background: none;
+ /*   background: none; */
 }
 
 header .overlayNormal {
@@ -162,7 +162,7 @@ header .overlayNormal {
     left: 0;
     height: 50vh;
     width: 100%;
-   // background-color: black;
+   /* background-color: black; */
     background-image: url("img/footerBG.jpg");
     background-size: cover;
     opacity: 1;
