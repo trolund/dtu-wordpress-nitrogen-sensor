@@ -98,7 +98,7 @@ input:focus {
     background-size: cover;
     background-position: center;
     position: relative;
-  //  background-color: black;
+  /*  background-color: black; */
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -107,7 +107,7 @@ input:focus {
 /* bg video */
 
 header video {
-  //  opacity: 0 !important;
+  /*  opacity: 0 !important; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -200,6 +200,25 @@ header .overlayNormal {
     color: #FFF !important;
 }
 
+.logoContainer{
+    display: flex; /* or inline-flex */
+    flex-wrap: wrap;
+    align-content: space-around;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  /*  border: yellow solid 2px; */
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.logoContainer > div{
+    width: 10vw;
+}
+
+
+
 .topContainer {
     top: 0;
     height: 160px;
@@ -210,7 +229,7 @@ header .overlayNormal {
     height: 75px;
     margin-left: auto;
     margin-right: auto;
-  //  transition: all 0.6s ease-in-out;
+  /*  transition: all 0.6s ease-in-out;*/
 
 }
 
@@ -589,14 +608,37 @@ input[type=submit]:hover{
 .flex-container {
     display: flex;
     justify-content: center;
+    max-width: 1140px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100% !important;
     /* background-color: DodgerBlue; */
+    /* border: red solid 2px; */
+    height: auto;
+    align-items: baseline;
+     flex-direction: row;
+    /*flex-wrap: wrap; */
 }
 
-.flex-container > div {
-    /* background-color: #f1f1f1; */
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+
+.flex-container > div img {
+  /*  background-color: #f1f1f1; */
+    height: 10vh;
+    max-width: 170px;
+    max-height: 80px;
+}
+
+.flex-container > div{
+    margin-right: 30px;
+}
+
+.flex-container > div:last-child {
+    margin-right: 0px;
+}
+
+.logoMiddel{
+    width: 30vw !important;
+    min-width: 100px;
 }
 
 /* Contact form */
@@ -714,7 +756,52 @@ input[type=submit]:hover{
     RESPONSIVE
 \*------------------------------------*/
 
+@media only screen and (max-width: 950px) {
+
+    .logoMiddel, .icon-scroll{
+        display: none;
+    }
+
+    /*
+    .logoContainer{
+        max-height: 200px;
+    }
+
+    .flex-container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container > div{
+        margin-right: 0px;
+        margin-top: 25px;
+    }
+
+    .flex-container > div img:first-child{
+        margin-top: 0px;
+    }
+
+    .flex-container > div img{
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .logoMiddel{
+        display: none;
+    }
+
+     */
+}
+
 @media only screen and (max-width: 800px) {
+
+    .logoContainer{
+
+        display: none;
+
+    }
 
     header .container {
         background-color: #F0F0F0 !important;
@@ -790,6 +877,7 @@ input[type=submit]:hover{
         -webkit-backdrop-filter: blur(20px);
         margin-left: auto;
         margin-right: auto;
+        box-shadow: none !important;
     }
 
     .containerMenuIcon {
@@ -806,6 +894,10 @@ input[type=submit]:hover{
         background-image: url('img/searchiconGrey.svg') !important;
         background-color: rgba(255, 255, 255, 1);
         border: 1px solid #898989 !important;
+    }
+
+    .topContainerDesktopFixed input[type=search]{
+        color: #212121 !important;
     }
 
 }

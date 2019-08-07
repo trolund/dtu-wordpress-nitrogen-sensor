@@ -29,7 +29,23 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-        <div class="overlay"></div>
+        <div class="overlay">
+        </div>
+        <div class="logoContainer">
+            <div class="flex-container">
+
+
+                <div><img src="<?php echo get_template_directory_uri(); ?>/img/KULogo.svg"></div>
+                <div><img src="<?php echo get_template_directory_uri(); ?>/img/KicLogo.svg"></div>
+                <div class="logoMiddel"></div>
+                <div><img src="<?php echo get_template_directory_uri(); ?>/img/DTULogo.svg"></div>
+
+                <div><img src="<?php echo get_template_directory_uri(); ?>/img/FICLogo.svg"></div>
+                <div><img src="<?php echo get_template_directory_uri(); ?>/img/AgriLogo.svg"></div>
+
+
+            </div>
+        </div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
             <!--   <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4"> -->
             <source src="<?php echo get_template_directory_uri(); ?>/video/new.mp4" type="video/mp4">
@@ -53,10 +69,12 @@
                 <!-- /nav -->
                 <?php get_template_part('searchform'); ?>
             </div>
+        </div>
             <div class='icon-scroll'><div/>
             </div>
-        </div>
 
+
+        </div>
     </header>
 
     <!-- /header -->
