@@ -395,6 +395,7 @@ header .overlayNormal {
 
 .topContainer input[type=search] {
     width: 130px;
+    max-width: 220px;
     box-sizing: border-box;
     border: 1px solid #ccc !important;
     border-radius: 5px;
@@ -420,13 +421,13 @@ header .overlayNormal {
 }
 
 .topContainer input[type=search]:focus {
-    width: 300px;
+    width: 220px;
     max-width: 300px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
 .topContainer input[type=search]:hover {
-    width: 300px;
+    width: 220px;
     max-width: 300px;
 }
 
@@ -837,52 +838,9 @@ figure img {
     RESPONSIVE
 \*------------------------------------*/
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 992px) {
 
-    .logoMiddel, .icon-scroll{
-        display: none;
-    }
 
-    /*
-    .logoContainer{
-        max-height: 200px;
-    }
-
-    .flex-container{
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .flex-container > div{
-        margin-right: 0px;
-        margin-top: 25px;
-    }
-
-    .flex-container > div img:first-child{
-        margin-top: 0px;
-    }
-
-    .flex-container > div img{
-        max-width: 80px;
-        max-height: 80px;
-    }
-
-    .logoMiddel{
-        display: none;
-    }
-
-     */
-}
-
-@media only screen and (max-width: 800px) {
-
-    .logoContainer{
-
-        display: none;
-
-    }
 
     header .container {
         background-color: #F0F0F0 !important;
@@ -983,29 +941,70 @@ figure img {
 
 }
 
+@media only screen and (max-width: 950px) {
 
-@media only screen and (min-width: 320px) {
+    .logoMiddel, .icon-scroll{
+        display: none;
+    }
 
+    /*
+    .logoContainer{
+        max-height: 200px;
+    }
+
+    .flex-container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-container > div{
+        margin-right: 0px;
+        margin-top: 25px;
+    }
+
+    .flex-container > div img:first-child{
+        margin-top: 0px;
+    }
+
+    .flex-container > div img{
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .logoMiddel{
+        display: none;
+    }
+
+     */
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 800px) {
 
+    .logoContainer{
+
+    }
+
+    .flex-container > div img{
+        max-width: 17vw;
+        max-height: 15vw;
+    }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 500px) {
 
+    .flex-container > div img{
+        max-width: 12vw;
+        max-height: 10vw;
+    }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 350px) {
 
-}
-
-@media only screen and (min-width: 1140px) {
-
-}
-
-@media only screen and (min-width: 1280px) {
-
+    .flex-container > div img{
+        display: none;
+    }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
