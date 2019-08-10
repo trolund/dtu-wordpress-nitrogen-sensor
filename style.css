@@ -546,12 +546,16 @@ select:-webkit-autofill:focus {
     width: 45px;
     height: 45px;
     margin-right: 10px;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%);*/
     transition: filter 0.35s;
+    /* back icons --> white */
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
 }
 
 .footerMiddel img:hover {
-    filter: grayscale(0%);
+    filter: grayscale(0.8);
+    -webkit-filter: grayscale(0.8);
 }
 
 .footerMiddel a {
@@ -786,7 +790,7 @@ input[type=submit]:hover{
 
 .partner ul li span {}
 
-figure {
+.partner figure {
     width: 110px;
     /*container-width*/
     height: 110px;
@@ -797,7 +801,7 @@ figure {
     border-radius: 55px;
 }
 
-figure img {
+.partner figure img {
     display: block;
     /*remove inline-block spaces*/
     width: 100%;

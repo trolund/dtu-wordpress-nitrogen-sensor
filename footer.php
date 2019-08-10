@@ -40,7 +40,7 @@
 				<!-- copyright -->
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?> -
-					<a href="https://www.diplom.dtu.dk/" title="DTU">Technical University of Denmark</a>.
+					<a href="https://www.dtu.dk/" title="DTU">Technical University of Denmark</a>.
 				</p>
 				<!-- /copyright -->
                 </div>

@@ -24,11 +24,6 @@ var mobilmenuvis = true;
 		})
 
 		var mobilmenuvis = true;
-
-
-
-
-		
 	});
 
 
@@ -50,11 +45,10 @@ jQuery(window).scroll(function (event) {
 jQuery(window).resize(function (event) {
 	var w = jQuery(window).width();
 
-	if(w >= 800){
+	if(w >= 992){
 		jQuery(".container").css("display", "block");
 		jQuery(".container").css("opacity", 1);
 		jQuery(".containerMenuIcon").addClass("change");
-
 		mobilmenuvis = true;
 	}else{
 		jQuery(".container").css("display", "none");
@@ -62,7 +56,7 @@ jQuery(window).resize(function (event) {
 		jQuery(".containerMenuIcon").removeClass("change");
 		mobilmenuvis = false;
 	}
-	console.log(w);
+//	console.log(w);
 });
 
 function adaptHeaderHeight() {
