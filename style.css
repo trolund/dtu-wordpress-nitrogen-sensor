@@ -32,6 +32,10 @@ body {
     color: #444;
 }
 
+article p{
+    text-align: justify;
+}
+
 /* clear */
 .clear:before,
 .clear:after {
