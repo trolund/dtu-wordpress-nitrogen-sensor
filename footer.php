@@ -39,7 +39,7 @@
                 <div class="footerBottom">
 				<!-- copyright -->
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?> -
+					&copy; <?php echo date('Y'); ?> Copyright Nitrogen Sensor Consortium -
 					<a href="https://www.dtu.dk/" title="DTU">Technical University of Denmark</a>.
 				</p>
 				<!-- /copyright -->
