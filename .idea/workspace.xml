@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a630a46-9bd5-43d1-95c9-1ccb1d0daa25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header-Frontpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/header-Frontpage.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="350" column="44" selection-start-line="350" selection-start-column="44" selection-end-line="350" selection-end-column="44" />
+            <state relative-caret-position="478">
+              <caret line="796" column="21" lean-forward="true" selection-start-line="796" selection-start-column="21" selection-end-line="796" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -185,7 +193,7 @@
       <workItem from="1563883088342" duration="34000" />
       <workItem from="1564055091472" duration="6147000" />
       <workItem from="1564172234949" duration="1444000" />
-      <workItem from="1565180902179" duration="29416000" />
+      <workItem from="1565180902179" duration="30395000" />
     </task>
     <task id="LOCAL-00001" summary="Custom frontpage template and header">
       <created>1563277009880</created>
@@ -348,11 +356,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565617746270</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="små updateringer">
+      <created>1565629966984</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1565629966984</updated>
+    </task>
+    <task id="LOCAL-00025" summary="tekst fix">
+      <created>1565630600379</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565630600379</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102548000" />
+    <option name="totallyTimeSpent" value="103527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -425,7 +447,9 @@
     <MESSAGE value="updtae af media links" />
     <MESSAGE value="footer update" />
     <MESSAGE value="update af partner side" />
-    <option name="LAST_COMMIT_MESSAGE" value="update af partner side" />
+    <MESSAGE value="små updateringer" />
+    <MESSAGE value="tekst fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="tekst fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/category.php">
@@ -588,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -630,10 +647,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="350" column="44" selection-start-line="350" selection-start-column="44" selection-end-line="350" selection-end-column="44" />
+        <state relative-caret-position="478">
+          <caret line="796" column="21" lean-forward="true" selection-start-line="796" selection-start-column="21" selection-end-line="796" selection-end-column="21" />
         </state>
       </provider>
     </entry>
