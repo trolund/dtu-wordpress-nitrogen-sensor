@@ -808,6 +808,8 @@ input[type=submit]:hover{
     /*make image streatch*/
 }
 
+
+
 .fleft {
     float: left;
 }
@@ -1002,6 +1004,10 @@ input[type=submit]:hover{
         max-width: 12vw;
         max-height: 10vw;
     }
+
+    .partner img {
+        float: none;
+    }
 }
 
 @media only screen and (max-width: 350px) {
@@ -1009,6 +1015,9 @@ input[type=submit]:hover{
     .flex-container > div img{
         display: none;
     }
+
+
+
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
