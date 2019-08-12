@@ -33,12 +33,12 @@
         </div>
         <div class="logoContainer">
             <div class="flex-container">
-                <div><img src="<?php echo get_template_directory_uri(); ?>/img/KULogo.svg"></div>
-                <div><img src="<?php echo get_template_directory_uri(); ?>/img/KicLogo.svg"></div>
+                <div><img class="hvr-bounce-in" src="<?php echo get_template_directory_uri(); ?>/img/KULogo.svg"></div>
+                <div><img class="hvr-bounce-in" src="<?php echo get_template_directory_uri(); ?>/img/KicLogo.svg"></div>
                 <div class="logoMiddel"></div>
-                <div><img src="<?php echo get_template_directory_uri(); ?>/img/DTULogo.svg"></div>
-                <div><img src="<?php echo get_template_directory_uri(); ?>/img/FICLogo.svg"></div>
-                <div><img src="<?php echo get_template_directory_uri(); ?>/img/AgriLogo.svg"></div>
+                <div><img class="hvr-bounce-in" src="<?php echo get_template_directory_uri(); ?>/img/DTULogo.svg"></div>
+                <div><img class="hvr-bounce-in" src="<?php echo get_template_directory_uri(); ?>/img/FICLogo.svg"></div>
+                <div><img class="hvr-bounce-in" src="<?php echo get_template_directory_uri(); ?>/img/AgriLogo.svg"></div>
             </div>
         </div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
