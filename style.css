@@ -632,6 +632,26 @@ input[type=submit]:hover{
     color: white;
 }
 
+.flex-containerOverview {
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+    width: 100% !important;
+    /* background-color: DodgerBlue; */
+    /* border: red solid 2px; */
+    height: auto;
+    align-items: baseline;
+    flex-direction: row;
+    /*flex-wrap: wrap; */
+}
+.flexitem{
+    width: 50%;
+}
+
+.flexitem ul ::marker {
+    color: #00916a;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -1025,6 +1045,16 @@ input[type=submit]:hover{
     .flex-container > div img{
         max-width: 17vw;
         max-height: 15vw;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .flex-containerOverview {
+        display: block;
+    }
+
+    .flexitem{
+        width: 100%;
     }
 }
 

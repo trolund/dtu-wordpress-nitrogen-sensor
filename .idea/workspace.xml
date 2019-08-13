@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a630a46-9bd5-43d1-95c9-1ccb1d0daa25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/icons/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icons/ms-icon-70x70.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header-Frontpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/header-Frontpage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/touch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="779" selection-start-line="779" selection-end-line="779" />
+            <state relative-caret-position="380">
+              <caret line="1055" column="14" lean-forward="true" selection-start-line="1055" selection-start-column="14" selection-end-line="1055" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -60,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="406">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -69,13 +41,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header-Frontpage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="25" selection-end-column="47" />
+            <state relative-caret-position="318">
+              <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
@@ -120,7 +92,6 @@
       <find>sea</find>
       <find>font</find>
       <find>logo</find>
-      <find>flex</find>
       <find>red</find>
       <find>max-w¨</find>
       <find>max-w</find>
@@ -134,6 +105,7 @@
       <find>boun</find>
       <find>top</find>
       <find>ul</find>
+      <find>flex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,7 +118,6 @@
         <option value="$PROJECT_DIR$/sidebar.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/CustomFrontpage.php" />
-        <option value="$PROJECT_DIR$/page.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/CHANGELOG.md" />
         <option value="$PROJECT_DIR$/LICENSE.md" />
@@ -159,9 +130,10 @@
         <option value="$PROJECT_DIR$/404.php" />
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/footer.php" />
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/header-Frontpage.php" />
         <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/header-Frontpage.php" />
+        <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -182,6 +154,11 @@
             <path>
               <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="b2602c69:ProjectViewProjectNode" />
               <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,7 +209,7 @@
       <workItem from="1563883088342" duration="34000" />
       <workItem from="1564055091472" duration="6147000" />
       <workItem from="1564172234949" duration="1444000" />
-      <workItem from="1565180902179" duration="32372000" />
+      <workItem from="1565180902179" duration="37204000" />
     </task>
     <task id="LOCAL-00001" summary="Custom frontpage template and header">
       <created>1563277009880</created>
@@ -423,11 +400,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565631383969</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="icon added">
+      <created>1565634768413</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1565634768413</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ubs">
+      <created>1565683166410</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1565683166410</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105504000" />
+    <option name="totallyTimeSpent" value="110336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -479,7 +470,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Custom frontpage template and header" />
     <MESSAGE value="mobil menu næsten færdig" />
     <MESSAGE value="mobil menu virker 90%" />
     <MESSAGE value="mobil menu virker" />
@@ -503,7 +493,9 @@
     <MESSAGE value="små updateringer" />
     <MESSAGE value="tekst fix" />
     <MESSAGE value="menu fit" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu fit" />
+    <MESSAGE value="icon added" />
+    <MESSAGE value="ubs" />
+    <option name="LAST_COMMIT_MESSAGE" value="ubs" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/category.php">
@@ -687,31 +679,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
+    <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="779" selection-start-line="779" selection-end-line="779" />
+        <state relative-caret-position="390">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header-Frontpage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="318">
+          <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
+    <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="406">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="1055" column="14" lean-forward="true" selection-start-line="1055" selection-start-column="14" selection-end-line="1055" selection-end-column="14" />
         </state>
       </provider>
     </entry>

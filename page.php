@@ -29,7 +29,7 @@ wp_head(); // brug header med mindre billede på alle andre sider.
 
                         <br class="clear">
 
-                        <?php edit_post_link(); ?>
+                        <?php // edit_post_link(); ?>
 
                     </article>
                     <!-- /article -->
