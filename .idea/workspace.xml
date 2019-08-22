@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a630a46-9bd5-43d1-95c9-1ccb1d0daa25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header-Frontpage.php" beforeDir="false" afterPath="$PROJECT_DIR$/header-Frontpage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +22,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="1055" column="14" lean-forward="true" selection-start-line="1055" selection-start-column="14" selection-end-line="1055" selection-end-column="14" />
+            <state relative-caret-position="402">
+              <caret line="1103" selection-start-line="1103" selection-end-line="1103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -32,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
+            <state relative-caret-position="465">
               <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
             </state>
           </provider>
@@ -41,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header-Frontpage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
+            <state relative-caret-position="1005">
               <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
             </state>
           </provider>
@@ -97,7 +105,6 @@
       <find>max-w</find>
       <find>max</find>
       <find>normal</find>
-      <find>footer</find>
       <find>partner</find>
       <find>wpcf7-form</find>
       <find>hover</find>
@@ -106,6 +113,7 @@
       <find>top</find>
       <find>ul</find>
       <find>flex</find>
+      <find>footer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,7 +131,6 @@
         <option value="$PROJECT_DIR$/LICENSE.md" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/single.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/search.php" />
         <option value="$PROJECT_DIR$/tag.php" />
         <option value="$PROJECT_DIR$/loop.php" />
@@ -133,14 +140,16 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/header-Frontpage.php" />
         <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="x" value="180" />
+    <option name="y" value="132" />
+    <option name="width" value="1080" />
+    <option name="height" value="659" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,11 +163,6 @@
             <path>
               <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="b2602c69:ProjectViewProjectNode" />
               <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DTU - NITROGEN SENSOR FOR SOIL SUSTAINABILITY" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +213,8 @@
       <workItem from="1563883088342" duration="34000" />
       <workItem from="1564055091472" duration="6147000" />
       <workItem from="1564172234949" duration="1444000" />
-      <workItem from="1565180902179" duration="37204000" />
+      <workItem from="1565180902179" duration="38129000" />
+      <workItem from="1566505717398" duration="710000" />
     </task>
     <task id="LOCAL-00001" summary="Custom frontpage template and header">
       <created>1563277009880</created>
@@ -414,17 +419,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565683166410</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix frontpage">
+      <created>1565698306021</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1565698306021</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110336000" />
+    <option name="totallyTimeSpent" value="111971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16380544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -470,7 +482,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mobil menu næsten færdig" />
     <MESSAGE value="mobil menu virker 90%" />
     <MESSAGE value="mobil menu virker" />
     <MESSAGE value="menu fix" />
@@ -495,7 +506,8 @@
     <MESSAGE value="menu fit" />
     <MESSAGE value="icon added" />
     <MESSAGE value="ubs" />
-    <option name="LAST_COMMIT_MESSAGE" value="ubs" />
+    <MESSAGE value="fix frontpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix frontpage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/category.php">
@@ -630,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="473" column="1" selection-start-line="473" selection-start-column="1" selection-end-line="473" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -672,10 +677,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="465">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header-Frontpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -686,24 +698,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header-Frontpage.php">
+    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="67" column="56" selection-start-line="67" selection-start-column="56" selection-end-line="67" selection-end-column="56" />
+        <state relative-caret-position="195">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
+    <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="1055" column="14" lean-forward="true" selection-start-line="1055" selection-start-column="14" selection-end-line="1055" selection-end-column="14" />
+        <state relative-caret-position="402">
+          <caret line="1103" selection-start-line="1103" selection-end-line="1103" />
         </state>
       </provider>
     </entry>
