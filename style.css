@@ -4,7 +4,7 @@ Theme URI: https://github.com/trolund
 Author: DTU (Troels Lund)
 Author URI: https://www.dtu.dk
 Description: NITROGEN SENSOR FOR SOIL SUSTAINABILITY
-Version: 0.12
+Version: 0.13
 */
 
 /*------------------------------------*\
@@ -781,6 +781,14 @@ input[type=submit]:hover{
 .contentWrapper a:hover{
     color: #00bf93;
 }
+
+.pageInfo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: italic;
+}
+
+
 
 
 /* partners page */

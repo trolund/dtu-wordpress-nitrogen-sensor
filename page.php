@@ -25,7 +25,7 @@ wp_head(); // brug header med mindre billede på alle andre sider.
 
                         <?php the_content(); ?>
 
-                        <?php comments_template( '', true ); // Remove if you don't want comments ?>
+                        <?php // comments_template( '', true ); // Remove if you don't want comments ?>
 
                         <br class="clear">
 
